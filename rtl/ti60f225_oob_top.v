@@ -17,9 +17,6 @@
 
 module ti60f225_oob_top #(
 
-
-
-
 	parameter                       RANK_RATIO         = 1,       // # of unique CS outputs per rank
 	parameter                       ASYN_AXI_CLK       = `ASYN_AXI_CLK, 
 	parameter                       RANKS              = `RANKS,
